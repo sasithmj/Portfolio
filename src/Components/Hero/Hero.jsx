@@ -7,20 +7,20 @@ import NamedComponent from "./NameComponent";
 
 function Hero() {
   return (
-    <div className="w-full h-screen top-0 bg-[#0f172a] bg-opacity-98 flex items-center justify-center text-white">
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-900 to-slate-800 opacity-80"></div>
-      <div className="w-full min-h-screentext-white relative overflow-hidden flex items-center justify-center">
-        <div className="container max-w-6xl px-4 pt-20 md:pt-32 flex flex-col justify-center">
+    <div className="w-full h-screen mt-16 bg-[#0f172a] bg-opacity-98 flex items-center justify-center text-white">
+      <div className="absolute top-16 inset-0 bg-gradient-to-br from-slate-900 to-slate-800 opacity-80 min-h-screen"></div>
+      <div className="w-full min-h-screen top-16 text-white relative overflow-hidden flex items-center justify-center lg:-top-10">
+        <div className="container max-w-6xl px-4 flex flex-col justify-center">
           {" "}
           {/* Added flex and justify-center */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center min-h-[calc(100vh-200px)]">
             {" "}
             {/* Added min-height */}
             {/* Left Content */}
-            <div className="z-10 flex justify-center sm:mb-4 sm:mt-24">
+            <div className="z-10 flex justify-center">
               {" "}
               {/* Added flex and items-center */}
-              <div className="space-y-4 flex flex-col items-center sm:block">
+              <div className="space-y-4 flex flex-col items-center lg:block ">
                 <h1 className="text-4xl lg:text-5xl font-bold">
                   Hello
                   <span className="text-coral-500 inline-block animate-blink">
@@ -68,6 +68,8 @@ function Hero() {
                   </a>
                   <a
                     type="button"
+                    href="https://www.instagram.com/sasith_m_jayaweera/"
+                    target="_blank"
                     className="text-white  hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center me-2 dark:border-slate-500 dark:text-white dark:hover:text-slate-500 dark:focus:ring-blue-800 dark:hover:bg-white"
                   >
                     <FaInstagram className="w-6 h-6" />
@@ -75,7 +77,7 @@ function Hero() {
                   </a>
                   <a
                     type="button"
-                    href="www.google.com"
+                    href="mailto:sasithmjayaweera@gmail.com"
                     className="text-white  hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center me-2 dark:border-slate-500 dark:text-white dark:hover:text-slate-500 dark:focus:ring-blue-800 dark:hover:bg-white"
                   >
                     <FaMailBulk className="w-6 h-6" />

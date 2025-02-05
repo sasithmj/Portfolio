@@ -19,7 +19,7 @@ function TechStach() {
 
   return (
     <div>
-      <div className="container mx-auto px-4 py-8 mt-10 bg-slate-700 w-100 rounded-lg overflow-hidden">
+      <div className="container mx-auto px-4 py-8 mt-10 bg-slate-700 w-100 rounded-lg overflow-hidden lg:-mt-12">
         <div className="flex justify-center gap-24 flex-nowrap animate-marquee whitespace-nowrap">
           {/* Render Skills with Unique Keys */}
           {skills.concat(skills).map((skill, index) => (

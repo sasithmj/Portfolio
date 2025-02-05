@@ -21,17 +21,15 @@ const AboutSection = () => {
   //   ];
 
   return (
-    <div className="bg-gray-900 py-16" id="About">
+    <div className="bg-gray-900 pt-20 pb-1 lg:pt-2 lg:px-16" id="About">
       <div className="max-w-6xl mx-auto px-4">
         <div className="mb-5 mt-10">
-        <div className="text-left mb-12">
-          <h2 className="text-purple-500 text-lg font-medium mb-4">
-            Know
-          </h2>
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            About Me
-          </h1>
-        </div>
+          <div className="text-left mb-12">
+            <h2 className="text-purple-500 text-lg font-medium mb-4">Know</h2>
+            <h1 className="text-3xl md:text-4xl font-bold text-white mb-6">
+              About Me
+            </h1>
+          </div>
           <div className="space-y-4 text-gray-300 leading-relaxed">
             <p>
               Passionate Full-Stack Developer specializing in modern web and

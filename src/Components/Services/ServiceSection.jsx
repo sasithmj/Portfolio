@@ -37,8 +37,8 @@ const ServicesSection = () => {
   ];
 
   return (
-    <div className="bg-[#0f172a] bg-opacity-98 p-8" id="Services">
-      <div className="bg-gradient-to-br from-slate-900 to-slate-800 opacity-80 max-w-6xl mx-auto px-8 py-8">
+    <div className="bg-[#0f172a] bg-opacity-98 py-8 px-2 lg:px-16" id="Services">
+      <div className="bg-gradient-to-br from-slate-900 to-slate-800 opacity-80 max-w-6xl mx-auto px-2 py-8">
         <h2 className="text-purple-500 text-lg font-medium mb-4">MY SERVICES</h2>
         <h1 className="text-white text-4xl font-bold mb-12">What I Do</h1>
 

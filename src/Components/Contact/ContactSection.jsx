@@ -31,7 +31,7 @@ const ContactSection = () => {
   };
 
   return (
-    <div className="bg-gray-900 py-16" id="Contact">
+    <div className="bg-gray-900 py-16 lg:px-16" id="Contact">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-left mb-12">
           <h2 className="text-purple-500 text-lg font-medium mb-4">
