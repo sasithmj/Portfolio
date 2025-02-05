@@ -9,7 +9,7 @@ function Hero() {
   return (
     <div className="w-full h-screen mt-16 bg-[#0f172a] bg-opacity-98 flex items-center justify-center text-white">
       <div className="absolute top-16 inset-0 bg-gradient-to-br from-slate-900 to-slate-800 opacity-80 min-h-screen"></div>
-      <div className="w-full min-h-screen top-16 text-white relative overflow-hidden flex items-center justify-center lg:-top-10">
+      <div className="w-full min-h-screen top-[12vh] text-white relative overflow-hidden flex items-center justify-center lg:-top-10">
         <div className="container max-w-6xl px-4 flex flex-col justify-center">
           {" "}
           {/* Added flex and justify-center */}
